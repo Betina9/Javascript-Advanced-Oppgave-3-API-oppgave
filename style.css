@@ -1,0 +1,9 @@
+body {
+  background-image: url(cat\ in\ picture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
