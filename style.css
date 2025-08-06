@@ -15,3 +15,10 @@ body {
   border: 1px, solid black;
   border-radius: 10px;
 }
+
+#cat-image {
+  max-width: 300px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000040;
+}
