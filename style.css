@@ -6,6 +6,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  cursor: url("https://img.icons8.com/?size=100&id=9199&format=png&color=000000"),
-    auto;
+  cursor: url("litenpote.png"), auto;
+}
+
+#container {
+  text-align: center;
+  padding: 20px;
+  border: 1px, solid black;
+  border-radius: 10px;
 }
