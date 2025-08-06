@@ -19,3 +19,5 @@ async function getData() {
 button.addEventListener("click", () => {
   getData();
 });
+
+window.addEventListener("DOMContentLoaded", getData);
