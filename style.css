@@ -18,6 +18,7 @@ body {
   border: 1px solid black;
   background: rgba(255, 255, 255, 0.85); /* halv-transparent hvit */
   padding: 20px;
+  position: relative;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   max-width: 400px;
@@ -43,9 +44,21 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  cursor: pointer;
   color: black;
   font-weight: bold;
   border-radius: 25px;
   font-size: x-large;
+  cursor: url("hvitPote.png"), auto;
+}
+
+#mute {
+  cursor: url("hvitPote.png"), auto;
+  background: #f3f4f6;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
