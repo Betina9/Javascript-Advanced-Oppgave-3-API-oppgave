@@ -12,7 +12,7 @@ async function getData() {
     const data = await result.json();
     display.textContent = data.data[0];
 
-    const randomParam = Date.now(); // gjør hver URL unik
+    const randomParam = Date.now();
     image.src = `https://cataas.com/cat?timestamp=${randomParam}`;
 
     if (isMuted) {

@@ -51,6 +51,12 @@ body {
   cursor: url("hvitPote.png"), auto;
 }
 
+#button:hover {
+  transform: scale(1.05);
+  border-color: #ffcc70;
+  box-shadow: 0 0 12px #ffcc70;
+}
+
 #mute {
   cursor: url("hvitPote.png"), auto;
   background: #f3f4f6;
