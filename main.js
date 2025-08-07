@@ -1,6 +1,7 @@
 const button = document.getElementById("button");
 const display = document.getElementById("display");
 const image = document.getElementById("cat-image");
+const sound = document.getElementById("meow-sound");
 
 async function getData() {
   try {
@@ -18,6 +19,7 @@ async function getData() {
 
 button.addEventListener("click", () => {
   getData();
+  sound.play();
 });
 
 window.addEventListener("DOMContentLoaded", getData);
